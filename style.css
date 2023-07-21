@@ -52,7 +52,7 @@ h1 {
 
 .card:hover {
   transform: scale(1.03);
-  transition: 0.4;
+  transition: all 0.4s;
   filter: drop-shadow(0 0 10px #333);
 }
 
@@ -75,13 +75,12 @@ h1 {
   background: linear-gradient(
     0deg,
     rgba(0, 0, 0, 0.5) 0%,
-    rgba(255, 255, 255, 0) 100%
-  );
-  transition: 0.3s;
+    rgba(255, 255, 255, 0) 100%);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .card:hover figcaption {
   opacity: 1;
   transform: scale(1.03);
+  tarnsition: all 0.4s
 }
