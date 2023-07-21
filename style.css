@@ -18,6 +18,7 @@
 }
 
 .container h1 {
+  user-select: none;
   margin: 20px 100px;
   text-align: center;
   margin-bottom: 20px;
@@ -40,6 +41,7 @@ h1 {
   margin-bottom: 20px;
   border-radius: 10px;
   overflow: hidden;
+  transform: scale(1);
 }
 
 .card img {
@@ -51,6 +53,7 @@ h1 {
 }
 
 .card:hover {
+  cursor: pointer;
   transform: scale(1.03);
   transition: all 0.4s;
   filter: drop-shadow(0 0 10px #333);
@@ -75,12 +78,13 @@ h1 {
   background: linear-gradient(
     0deg,
     rgba(0, 0, 0, 0.5) 0%,
-    rgba(255, 255, 255, 0) 100%);
+    rgba(255, 255, 255, 0) 100%
+  );
+  transition: all 0.4s;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .card:hover figcaption {
   opacity: 1;
   transform: scale(1.03);
-  tarnsition: all 0.4s
 }
